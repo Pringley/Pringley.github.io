@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1>Current Projects</h1>
+  <ul class="links">
+      <li>
+          <a class="link" href="https://github.com/Pringley/twit.py">Twit</a>
+          <p class="description"> Simplified interface to Git version control. </p>
+      </li>
+      <li>
+          <a class="link" href="https://github.com/Pringley/basinweb">Basin</a>
+          <p class="description"> Store your thoughts in a silvery basin. </p>
+      </li>
+  </ul>
+
+  <h1>Blog Posts</h1>
+
+  <ul class="links">
+    {% for post in site.posts %}
+      <li>
+        <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

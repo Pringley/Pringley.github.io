@@ -1,0 +1,16 @@
+# Site settings
+name: Ben Pringle
+firstname: Ben
+lastname: Pringle
+email: me@benpringle.com
+realname: Ben Pringle
+github_username: Pringley
+twitter_username: PringleBen
+gplus_url: "+BenPringlesProfile"
+description: "Personal website for Ben Pringle."
+baseurl: ""
+url: "http://benpringle.com"
+
+# Build settings
+markdown: kramdown
+permalinks: pretty

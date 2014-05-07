@@ -1,0 +1,12 @@
+# Jekyll
+_site
+
+# VIM files
+*~
+.*.swp
+.*.swo
+.*.un~
+Session.vim
+
+# OS X files
+.DS_Store
