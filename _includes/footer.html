@@ -14,6 +14,23 @@
     <div class="footer-col-2 column">
       <ul>
         <li>
+          <a href="http://linkedin.com/in/{{ site.linkedin_username }}">
+            <span class="icon linkedin">
+              <svg version="1.1" class="linkedin-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                <path fill="#00002B" d="M426.656,0H85.344C38.406,0,0,38.406,0,85.343v341.313C0,473.624,38.407,512,85.344,512h341.312
+                    C473.593,512,512,473.624,512,426.656V85.344C511.998,38.406,473.593,0,426.656,0z M157.395,428.635H79.969V195.671h77.426V428.635z
+                     M118.684,163.879h-0.508c-25.983,0-42.788-17.898-42.788-40.266c0-22.846,17.313-40.248,43.803-40.248
+                    c26.486,0,42.791,17.396,43.296,40.248C162.487,145.973,145.678,163.879,118.684,163.879z M436.611,428.635h-77.426V303.997
+                    c0-31.308-11.205-52.669-39.219-52.669c-21.395,0-34.143,14.406-39.73,28.318c-2.041,4.98-2.548,11.925-2.548,18.883v130.104
+                    h-77.444c0,0,1.018-211.103,0-232.963h77.436v33c10.283-15.864,28.672-38.479,69.785-38.479c50.952,0,89.146,33.309,89.146,104.856
+                    V428.635L436.611,428.635z"/>
+              </svg>
+            </span>
+            <span class="username">{{ site.linkedin_username }}</span>
+          </a>
+        </li>
+        <li>
           <a href="http://google.com/{{ site.gplus_url }}">
             <span class="icon gplus">
               <svg version="1.1" class="gplus-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -37,7 +54,7 @@
                 </g>
               </svg>
             </span>
-            <span class="username">{{ site.realname }}</span>
+            <span class="username">+{{ site.gplus_username }}</span>
           </a>
         </li>
         <li>
@@ -54,7 +71,7 @@
                 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
               </svg>
             </span>
-            <span class="username">{{ site.twitter_username }}</span>
+            <span class="username">@{{ site.twitter_username }}</span>
           </a>
         </li>
         <li>
@@ -73,7 +90,7 @@
                 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
               </svg>
             </span>
-            <span class="username">{{ site.github_username }}</span>
+            <span class="username">@{{ site.github_username }}</span>
           </a>
         </li>
       </ul>
