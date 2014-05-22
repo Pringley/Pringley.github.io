@@ -184,6 +184,11 @@ a:visited { color: #205caa; }
 .links .description {
 }
 
+.more-projects {
+    font-size: 90%;
+    margin-bottom: 25px;
+}
+
 
 /* Post styles */
 /* ----------------------------------------------------------*/
